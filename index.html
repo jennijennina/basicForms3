@@ -22,8 +22,6 @@
                   name="Name"
                   id="Name"
                   placeholder="Name"
-                  size="25"
-                  style="border-color: lightgrey"
                   required
                 />
               </div>
@@ -38,8 +36,6 @@
                   name="Surname"
                   id="Surname"
                   placeholder="Surname"
-                  style="border-color: lightgrey"
-                  size="25"
                 />
               </div>
             </td>
@@ -53,7 +49,6 @@
                   type="email"
                   name="email"
                   id="email"
-                  style="border-color: lightgrey"
                   placeholder="Email"
                 />
               </div>
@@ -82,16 +77,12 @@
             <td>
               <div>
                 <label for="Country2"></label>
-                <input
-                  list="Country"
-                  id="Country2"
-                  style="border-color: lightgrey"
-                  name="Country2"
-                /><datalist id="Country">
-                  <option value="Germany"></option>
-                  <option value="Spain"></option>
-                  <option value="France"></option>
-                </datalist>
+
+                <select>
+                  <option>Germany</option>
+                  <option>Spain</option>
+                  <option>France</option>
+                </select>
               </div>
             </td>
           </tr>
